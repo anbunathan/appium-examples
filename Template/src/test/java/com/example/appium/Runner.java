@@ -9,6 +9,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.ServerSocket;
+import com.example.appium.MyLogger;
 
 public class Runner {
     private AppiumDriverLocalService service;
@@ -62,9 +63,11 @@ public class Runner {
             try {
                 Thread.sleep(3000);
                 JUnitCore.runClasses(com.example.appium.Calculator.class);
+                MyLogger.log.info("Test result = PASS");
             } catch (InterruptedException e) {
                 // TODO Auto-generated catch block
                 e.printStackTrace();
+                MyLogger.log.info("Test result = FAIL");
             }
             runner.stopServer();
             System.out.println("Stopped");
