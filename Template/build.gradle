@@ -1,3 +1,6 @@
+plugins {
+    id "application"
+}
 group 'io.cloudgrey.appiumpro'
 //version '1.0-SNAPSHOT'
 
@@ -27,16 +30,16 @@ dependencies {
     testCompile group: 'com.google.guava', name: 'guava', version: '28.1-jre'
 }
 
-test {
-    outputs.upToDateWhen {false}
-    useJUnit()
-    testLogging {
-        exceptionFormat = 'full'
-        showStandardStreams = true
-    }
-    maxParallelForks = 3
-    forkEvery = 1
-}
+//test {
+//    outputs.upToDateWhen {false}
+//    useJUnit()
+//    testLogging {
+//        exceptionFormat = 'full'
+//        showStandardStreams = true
+//    }
+//    maxParallelForks = 3
+//    forkEvery = 1
+//}
 
 task copyJarsToLib (type: Copy) {
     def toDir = "build/libs/dependency-jars"
@@ -82,6 +85,24 @@ task buildJar(dependsOn:classes,type: Jar) {
 }
 
 // always call copyJarsToLib when building jars:
-jar.dependsOn copyJarsToLib
+buildJar.dependsOn copyJarsToLib
 build.dependsOn(buildJar)
-// END AUTOMATICALLY INSERTED
+
+tasks.withType(Test) {
+    scanForTestClasses = false
+    include "**/*Test.class" // whatever Ant pattern matches your test class files
+}
+
+task(runAppium, dependsOn: 'classes', type: JavaExec) {
+    main = 'com.example.appium.Runner'
+    mainClassName = main
+    classpath = sourceSets.test.runtimeClasspath
+}
+
+//ext {
+//    javaMainClass = "com.example.appium.Runner"
+//}
+//
+//application {
+//    mainClassName = javaMainClass
+//}
