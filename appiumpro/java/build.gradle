@@ -13,6 +13,7 @@ repositories {
 }
 
 dependencies {
+    implementation 'org.junit.jupiter:junit-jupiter:5.4.2'
     testImplementation group: 'junit', name: 'junit', version: '4.12'
     testImplementation group: 'io.appium', name: 'java-client', version: '7.3.0'
     testImplementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.13.0'
@@ -28,15 +29,19 @@ dependencies {
     testImplementation group: 'com.google.guava', name: 'guava', version: '28.1-jre'
 }
 
+//test {
+//    outputs.upToDateWhen {false}
+//    useJUnit()
+//    testLogging {
+//        exceptionFormat = 'full'
+//        showStandardStreams = true
+//    }
+//    maxParallelForks = 3
+//    forkEvery = 1
+//}
+
 test {
-    outputs.upToDateWhen {false}
-    useJUnit()
-    testLogging {
-        exceptionFormat = 'full'
-        showStandardStreams = true
-    }
-    maxParallelForks = 3
-    forkEvery = 1
+    useJUnitPlatform()
 }
 
 buildscript {

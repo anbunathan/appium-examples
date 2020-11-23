@@ -1,0 +1,28 @@
+{
+  "capabilities":
+  [
+    {
+      "browserName":"Android Nougat",
+      "udid": "ZH33L2Z6KL",
+      "version":"7.1.0",
+      "platform":"ANDROID",
+      "maxInstances": 1
+    }
+  ],
+
+  "configuration":
+  {
+    "cleanUpCycle":2000,
+    "timeout":20000,
+    "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+    "url": "http://192.168.0.105/:4723/wd/hub",
+    "host": "192.168.0.105",
+    "port": 4723,
+    "maxSession": 1,
+    "register": true,
+    "registerCycle": 1000,
+    "hubPort": 4444,
+    "hubHost": "192.168.0.105",
+    "session-override": true
+  }
+}

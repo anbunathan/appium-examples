@@ -1,0 +1,1 @@
+appium -p 6002 --nodeconfig nodeconfig_device2.json

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression" duration-ms="77854" started-at="2020-11-22T14:45:14Z" finished-at="2020-11-22T14:46:32Z">
+    <groups>
+    </groups>
+    <test name="Real Device1" duration-ms="77854" started-at="2020-11-22T14:45:14Z" finished-at="2020-11-22T14:46:32Z">
+      <class name="com.testautomation.grid.AppiumSeGridDemo">
+        <test-method status="PASS" signature="test1(java.lang.String)[pri:0, instance:com.testautomation.grid.AppiumSeGridDemo@3c0ecd4b]" name="test1" duration-ms="50764" started-at="2020-11-22T14:45:14Z" finished-at="2020-11-22T14:46:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ZH33L2Z6KL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2(java.lang.String)[pri:0, instance:com.testautomation.grid.AppiumSeGridDemo@3c0ecd4b]" name="test2" duration-ms="27027" started-at="2020-11-22T14:46:05Z" finished-at="2020-11-22T14:46:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ZH33L2Z6KL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- com.testautomation.grid.AppiumSeGridDemo -->
+    </test> <!-- Real Device1 -->
+  </suite> <!-- Regression -->
+</testng-results>
