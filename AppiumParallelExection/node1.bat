@@ -1,0 +1,1 @@
+appium --port 6001 --nodeconfig nodeconfig_device1.json

@@ -1,13 +1,13 @@
 {
   "capabilities": [
     {
-      "browserName": "Android",
+      "browserName": "Chrome",
       "version": "6.0",
       "maxInstances": 10,      
       "deviceName": "ZH33L2Z6KL",
       "platformName": "ANDROID",
 	  "automationName":"UiAutomator2",
-	  "systemPort":"8201"
+	  "chromeDriverPort":"8201"
     }
   ],
   "configuration": {

@@ -1,0 +1,1 @@
+appium --address 127.0.0.1 --port 4726 --nodeconfig nodeconfig_device2.json

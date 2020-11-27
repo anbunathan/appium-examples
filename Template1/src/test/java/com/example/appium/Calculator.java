@@ -30,10 +30,12 @@ public class Calculator {
                 caps.setCapability("udid", "ZH33L2Z6KL");
                 caps.setCapability("deviceName", "ZH33L2Z6KL");
                 caps.setCapability("systemPort", "8201");
+
             } else if (runOn.contains("fca3752eeaac")) {
                 caps.setCapability("udid", "fca3752eeaac");
                 caps.setCapability("deviceName", "fca3752eeaac");
                 caps.setCapability("systemPort", "8202");
+
             }
             caps.setCapability("platformName", "Android");
             caps.setCapability("automationName", "UiAutomator2");

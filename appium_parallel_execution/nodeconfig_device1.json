@@ -1,0 +1,27 @@
+{
+  "capabilities": [
+    {
+      "browserName": "Chrome",
+      "version": "7.1.1",
+      "maxInstances": 10,      
+      "udid": "ZH33L2Z6KL",
+      "platformName": "ANDROID",
+	  "automationName":"Appium",
+	  "chromeDriverPort":"9516"
+    }
+  ],
+  "configuration": {
+    "cleanUpCycle": 2000,
+    "timeout": 300000,
+    "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+    "url":"http://127.0.0.1:4729/wd/hub",
+    "host": "127.0.0.1",
+    "port": 4729,
+    "maxSession": 10,        
+    "register": true,
+    "registerCycle": 5000,
+    "hubPort": 4444,
+    "hubHost": "127.0.0.1",
+	"hubProtocol":"http"
+  }
+}

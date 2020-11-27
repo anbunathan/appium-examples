@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="WebAppSuite" verbose="1" parallel="tests" thread-count="2">
+    <test name="Web app test on Android 7">
+        <parameter name="platform" value="Android 7.1.1"/>
+        <parameter name="udid" value="ZH33L2Z6KL"/>
+        <parameter name="chromeDriverPort" value="9516"/>
+        <parameter name="chromeDriverPath" value="C:\\chromedriver\\chromedriver.exe"/>
+        <parameter name="devicename" value="Moto G"/>
+        <parameter name="serverurl" value="http://127.0.0.1:4729/wd/hub"/>
+        <classes>
+            <class name="AndroidWebAppParallelTests" />
+        </classes>
+    </test>
+    <test name="Web app test on Android 10">
+        <parameter name="platform" value="Android 10.0"/>
+        <parameter name="udid" value="fca3752eeaac"/>
+        <parameter name="chromeDriverPort" value="9515"/>
+        <parameter name="chromeDriverPath" value="C:\\chromedriver\\chromedriver86.exe"/>
+        <parameter name="devicename" value="MI A3"/>
+        <parameter name="serverurl" value="http://127.0.0.1:4726/wd/hub"/>
+        <classes>
+            <class name="AndroidWebAppParallelTests" />
+        </classes>
+    </test>
+</suite>
