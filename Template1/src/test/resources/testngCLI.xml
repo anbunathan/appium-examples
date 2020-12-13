@@ -24,7 +24,7 @@
 <!--    </test>-->
     <test name="Real Device1">
         <classes>
-            <class name="com.example.appium.HybridApp"/>
+            <class name="com.example.appium.CalculatorCLI"/>
         </classes>
     </test>
 </suite>
