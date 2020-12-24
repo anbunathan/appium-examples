@@ -1,0 +1,10 @@
+backup files from
+C:\Users\natha\AppData\Roaming\npm\node_modules\test-ai-classifier\model
+
+the following files are replaced:
+model.pb
+weights.json
+group1-shard1of1
+
+with web_model files
+after renaming saved_model.pb to model.pb, model.json to weights.json. group1-shard1of1.bin as it is.
