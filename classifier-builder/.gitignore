@@ -4,3 +4,9 @@ target/
 *.iml
 .DS_Store
 training_images/
+training_images_old/
+training_images_color/
+tmp/
+output/
+colab/
+backup/

@@ -45,7 +45,7 @@ for filename in os.listdir(directory):
 			total += 1
 			# if we have reached the specified number of examples, break
 			# from the loop
-			if total == 100:
+			if total == 500:
 				break
 
 
