@@ -50,13 +50,15 @@ public class TestCameraAI {
 //        Thread.sleep(15000);
 
         driver.findElement(MobileBy.custom("ai:camera7")).click();
-//        driver.findElement(MobileBy.custom("ai:cameraauto")).click();
-//        driver.findElement(MobileBy.custom("ai:cameraflash")).click();
-//        driver.findElement(MobileBy.custom("ai:cameralock")).click();
-//        driver.findElement(MobileBy.custom("ai:camerasetting")).click();
+        Thread.sleep(5000);
+        driver.findElement(MobileBy.custom("ai:cameraauto")).click();
+        driver.findElement(MobileBy.custom("ai:cameraflash")).click();
+        driver.findElement(MobileBy.custom("ai:cameralock")).click();
+        driver.findElement(MobileBy.custom("ai:camerasetting")).click();
+        driver.navigate().back();
 
-//        Thread.sleep(15000);
-//        driver.quit();
+        Thread.sleep(5000);
+        driver.quit();
 
     }
 }
