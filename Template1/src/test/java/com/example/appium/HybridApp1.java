@@ -32,9 +32,13 @@ public class HybridApp1 {
         capabilities.setCapability("platformName", "Android");
         capabilities.setCapability("udid", "ZH33L2Z6KL");
         capabilities.setCapability("automationName", "UiAutomator2");
+        capabilities.setCapability("skipServerInstallation", "true");
+        capabilities.setCapability("autoGrantPermissions", "true");
+        capabilities.setCapability("skipDeviceInitialization", "true");
+        capabilities.setCapability("noReset", "true");
         capabilities.setCapability("app", APP_ANDROID);
 
-        AndroidDriver driver = new AndroidDriver(new URL("http://localhost:4723/wd/hub"), capabilities);
+        AppiumDriver driver = new AppiumDriver(new URL("http://localhost:4723/wd/hub"), capabilities);
         actualTest(driver);
     }
 

@@ -6,7 +6,7 @@ group 'io.cloudgrey.appiumpro'
 
 apply plugin: 'java'
 
-sourceCompatibility = 1.8
+sourceCompatibility = 1.11
 
 repositories {
     maven { url "https://jitpack.io" }
