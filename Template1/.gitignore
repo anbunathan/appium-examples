@@ -11,3 +11,4 @@ target/
 queryimages/
 .gradle
 test-output/
+gradle/
