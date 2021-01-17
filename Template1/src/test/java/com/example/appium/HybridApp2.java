@@ -34,28 +34,19 @@ public class HybridApp2 {
         DesiredCapabilities capabilities = new DesiredCapabilities();
         // Set android deviceName desired capability. Set your device name.
         capabilities.setCapability("udid", "ZH33L2Z6KL");
-        // Set 'browserName' desired capability. It's Chrome in our case here.
-        // capabilities.setCapability("browserName", "Chrome");
-        // Set android platformName desired capability. It's Android in our case here.
         capabilities.setCapability("platformName", "Android");
         capabilities.setCapability("platformVersion", "7.1.1");
         capabilities.setCapability("automationName", "uiautomator2");
-        capabilities.setCapability("automationName", "UiAutomator2");
         capabilities.setCapability("skipServerInstallation", "true");
         capabilities.setCapability("autoGrantPermissions", "true");
         capabilities.setCapability("skipDeviceInitialization", "true");
         capabilities.setCapability("noReset", "true");
         capabilities.setCapability("unicodeKeyboard", "true");
         capabilities.setCapability("resetKeyboard", "true");
-//		capabilities.setCapability("chromedriverExecutable", "C:\\Program Files\\Appium\\resources\\app"
-//				+ "\\node_modules\\appium\\node_modules\\appium-chromedriver\\chromedriver\\win\\chromedriver.exe");
-        //capabilities.setCapability("appPackage", "com.snc.test.webview2");
-        //capabilities.setCapability("appActivity", "com.snc.test.webview.activity.MainActivity");
-        // Set app path
         capabilities.setCapability("app","D:\\Webapp\\app\\WebView-Test.apk");
-        // Created object of RemoteWebDriver will all set capabilities.
-        // Set appium server address and port number in URL string.
         capabilities.setCapability("skipUnlock","true");
+        capabilities.setCapability("chromedriverExecutable", "C:\\Program Files\\Appium\\resources\\app"
+                + "\\node_modules\\appium\\node_modules\\appium-chromedriver\\chromedriver\\win\\chromedriver.exe");
         // It will launch Chrome app in android device.
         driver = new AndroidDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
         wait = new WebDriverWait(driver, 300);
@@ -73,7 +64,7 @@ public class HybridApp2 {
                 (By.id("com.snc.test.webview2:id/action_go_website"))).click();
         //driver.findElement(By.id("com.snc.test.webview2:id/action_go_website")).click();
         //Allow app permissions
-        allowAppPermission();
+//        allowAppPermission();
         //Locate "input URL" field using its ID and type "www.facebook.com"
         wait.until(ExpectedConditions.visibilityOfElementLocated
                 (By.id("com.snc.test.webview2:id/input_url")));
@@ -94,19 +85,22 @@ public class HybridApp2 {
         System.out.println("Total No of Context  = "+ availableContexts.size());
         //Loop through contexts and select Webview
         for(String context : availableContexts) {
-            if(context.contains("WEBVIEW")){
-                System.out.println("Context Name is " + context);
+            System.out.println("Context Name is " + context);
+            if(context.contains("WEBVIEW_com")){
+                System.out.println("Context Name with WEBVIEW is " + context);
                 // Call context() method and change it to WEBVIEW_1
                 //(This puts Appium session into the web view)
-                //driver.context(context);
-                break;
+                driver.context(context);
+//                break;
             }
         }
 
 //        Thread.sleep(6000);
-        driver.findElementByClassName("android.widget.EditText").sendKeys("India");
-        driver.executeScript("mobile:performEditorAction", ImmutableMap.of("action", "done"));
-        driver.findElementByXPath("//android.widget.LinearLayout[@content-desc=\"webview\"]/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[2]/android.view.View[1]/android.view.View/android.widget.Button[1]").click();
+//        driver.findElementByClassName("android.widget.EditText").sendKeys("India");
+//        driver.executeScript("mobile:performEditorAction", ImmutableMap.of("action", "done"));
+//        driver.findElementByXPath("//android.widget.LinearLayout[@content-desc=\"webview\"]/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.view.View[2]/android.view.View[1]/android.view.View/android.widget.Button[1]").click();
+
+        driver.findElementByXPath("//input[@name=\"q\"]").sendKeys("India");
         driver.pressKey(new KeyEvent(AndroidKey.ENTER));
 
     }

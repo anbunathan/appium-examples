@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression" thread-count="2" parallel="tests" preserve-order="true" verbose="2">
+    <test name="Real Device1">
+        <parameter name="runAs" value="grid"></parameter>
+        <parameter name="platform" value="mobile"></parameter>
+        <parameter name="runOn" value="ZH33L2Z6KL"></parameter>
+        <classes>
+            <class name="com.example.appium.Webapp_Parallel"/>
+        </classes>
+    </test>
+    <test name="Real Device2">
+        <parameter name="runAs" value="grid"></parameter>
+        <parameter name="platform" value="mobile"></parameter>
+        <parameter name="runOn" value="fca3752eeaac"></parameter>
+        <classes>
+            <class name="com.example.appium.Webapp_Parallel"/>
+        </classes>
+    </test>
+
+</suite>
