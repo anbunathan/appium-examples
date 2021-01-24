@@ -2,6 +2,8 @@ package com.example.appium;
 
 import io.appium.java_client.MobileBy;
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.nativekey.AndroidKey;
+import io.appium.java_client.android.nativekey.KeyEvent;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.Test;
 
@@ -56,7 +58,6 @@ public class TestCameraAI {
         driver.findElement(MobileBy.custom("ai:cameralock")).click();
         driver.findElement(MobileBy.custom("ai:camerasetting")).click();
         driver.navigate().back();
-
         Thread.sleep(5000);
         driver.quit();
 

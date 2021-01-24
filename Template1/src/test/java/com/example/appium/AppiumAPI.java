@@ -6,6 +6,11 @@ import java.time.Duration;
 import java.util.Collections;
 import java.util.concurrent.TimeUnit;
 
+import io.appium.java_client.android.AndroidTouchAction;
+import io.appium.java_client.android.nativekey.AndroidKey;
+import io.appium.java_client.android.nativekey.KeyEvent;
+import io.appium.java_client.touch.LongPressOptions;
+import io.appium.java_client.touch.offset.ElementOption;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -38,9 +43,9 @@ public class AppiumAPI {
         }
     }
 
-    public void clickListID( String id){
-        String xpath = "//android.widget.CheckedTextView[@index='"+ id + "']";
-        System.out.println("xpath = "+xpath);
+    public void clickListXPATH(String xpath){
+//        String xpath = "//android.widget.CheckedTextView[@index='"+ id + "']";
+//        System.out.println("xpath = "+xpath);
 //        driver.findElementByXPath("//android.widget.CheckedTextView[@index='1']").click();
         AndroidElement element = driver.findElementByXPath(xpath);
         if(element.isDisplayed()){
@@ -76,5 +81,32 @@ public class AppiumAPI {
         if(element.isDisplayed()){
             element.getText().contains(result);
         }
+    }
+
+    public void assertTrueXPATH(String xpath, String result){
+//        String xpath = "//android.widget.EditText[@index='0']";
+//        System.out.println("xpath = "+xpath);
+//        AndroidElement element = driver.findElementByXPath("//android.widget.EditText[@index='0']");
+        AndroidElement element = driver.findElementByXPath(xpath);
+        if(element.isDisplayed()){
+            element.getText().contains(result);
+        }
+    }
+
+    public void clickOnMenuXPATH(String xpath) throws InterruptedException {
+        driver.pressKey(new KeyEvent(AndroidKey.MENU));
+        Thread.sleep(1000);
+//        clickListXPATH("//android.widget.TextView[@text='Clear history']");
+        clickListXPATH(xpath);
+        Thread.sleep(1000);
+    }
+
+    public void clickLongOnElementXPATH(String xpath) throws InterruptedException {
+//        AndroidElement element = driver.findElementByXPath("//android.widget.EditText[@index='0']");
+        AndroidElement element = driver.findElementByXPath(xpath);
+        AndroidTouchAction touch = new AndroidTouchAction (driver);
+        touch.longPress(LongPressOptions.longPressOptions()
+                .withElement (ElementOption.element (element)))
+                .perform ();
     }
 }
