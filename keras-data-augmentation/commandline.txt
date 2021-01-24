@@ -1,0 +1,1 @@
+C:\Python38\python.exe generate_images_in_loop.py
