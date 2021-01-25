@@ -44,11 +44,11 @@ public class BMI {
             Thread.sleep(5000);
 //            driver.findElementById("com.zola.bmi:id/weightSpinner").click();
             api.clickOnElementRID("weightSpinner");
-            api.clickListXPATH("//android.widget.CheckedTextView[@index='1']");
+            api.clickOnListID("1");
 //            api.clickListItem("Kilograms");
 //            driver.findElementById("com.zola.bmi:id/heightSpinner").click();
             api.clickOnElementRID("heightSpinner");
-            api.clickListXPATH("//android.widget.CheckedTextView[@index='1']");
+            api.clickOnListID("1");
 //            driver.navigate().back();
 //            driver.findElementById("com.zola.bmi:id/weightNum").sendKeys("90");
 //            driver.findElementById("com.zola.bmi:id/heightNum").sendKeys("60");
