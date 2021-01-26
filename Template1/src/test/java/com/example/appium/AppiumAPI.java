@@ -210,6 +210,16 @@ public class AppiumAPI {
         }
     }
 
+    public void assertEditID(String id, String result){
+        String xpath = "//android.widget.EditText[@index='"+id+"']";
+        System.out.println("xpath = "+xpath);
+//        AndroidElement element = driver.findElementByXPath("//android.widget.EditText[@index='0']");
+        AndroidElement element = driver.findElementByXPath(xpath);
+        if(element.isDisplayed()){
+            element.getText().contains(result);
+        }
+    }
+
     public void clickOnMenuXPATH(String xpath) throws InterruptedException {
         driver.pressKey(new KeyEvent(AndroidKey.MENU));
         Thread.sleep(1000);
@@ -254,6 +264,17 @@ public class AppiumAPI {
                 .perform ();
     }
 
+    public void clickLongOnEditID(String id) throws InterruptedException {
+        String xpath = "//android.widget.EditText[@index='"+id+"']";
+        System.out.println("xpath = "+xpath);
+//        AndroidElement element = driver.findElementByXPath("//android.widget.EditText[@index='0']");
+        AndroidElement element = driver.findElementByXPath(xpath);
+        AndroidTouchAction touch = new AndroidTouchAction (driver);
+        touch.longPress(LongPressOptions.longPressOptions()
+                .withElement (ElementOption.element (element)))
+                .perform ();
+    }
+
     public void goBack(){
         driver.pressKey(new KeyEvent(AndroidKey.BACK));
     }
@@ -264,6 +285,25 @@ public class AppiumAPI {
         if(element.isDisplayed()){
             element.click();
         }
+        else{
+            int counter=0;
+            do {
+                TouchAction action = new TouchAction(driver);
+                action.press(PointOption.point(0, pointAsAnInteger * 2))
+                        .moveTo(PointOption.point(0, pointAsAnInteger))
+                        .release()
+                        .perform();
+                element = driver.findElementByXPath(xpath);
+                if(element.isDisplayed()){
+                    element.click();
+                }
+                counter++;
+                if(counter>100){
+                    break;
+                }
+            } while (!element.isDisplayed());
+        }
+
         Thread.sleep(1000);
     }
 
@@ -287,6 +327,48 @@ public class AppiumAPI {
 
     public void clickOnButtonID(String id) throws InterruptedException {
         String xpath = "//android.widget.Button[@index='"+id+"']";
+        AndroidElement element = driver.findElementByXPath(xpath);
+        if(element.isDisplayed()){
+            element.click();
+        }
+        Thread.sleep(1000);
+    }
+
+    public void EnableCheckboxID(String id) throws InterruptedException {
+        String rid = "android:id/checkbox";
+        int index = Integer.valueOf(id);
+        AndroidElement element = driver.findElementsById(rid).get(index);
+        System.out.println("Checkbox status = "+element.getAttribute("checked"));
+        if(element.getAttribute("checked").contains("false")){
+            System.out.println("Enable Checkbox");
+            element.click();
+        }
+        Thread.sleep(1000);
+    }
+
+    public void DisableCheckboxID(String id) throws InterruptedException {
+        String rid = "android:id/checkbox";
+        int index = Integer.valueOf(id);
+        AndroidElement element = driver.findElementsById(rid).get(index);
+        System.out.println("Checkbox status = "+element.getAttribute("checked"));
+        if(element.getAttribute("checked").contains("true")){
+            System.out.println("Disable Checkbox");
+            element.click();
+        }
+        Thread.sleep(1000);
+    }
+
+    public void clickOnImageButtonTEXT(String text) throws InterruptedException {
+        String xpath = "//android.widget.ImageButton[@text='"+text+"']";
+        AndroidElement element = driver.findElementByXPath(xpath);
+        if(element.isDisplayed()){
+            element.click();
+        }
+        Thread.sleep(1000);
+    }
+
+    public void clickOnImageButtonID(String id) throws InterruptedException {
+        String xpath = "//android.widget.ImageButton[@index='"+id+"']";
         AndroidElement element = driver.findElementByXPath(xpath);
         if(element.isDisplayed()){
             element.click();
