@@ -13,6 +13,7 @@ import io.appium.java_client.touch.LongPressOptions;
 import io.appium.java_client.touch.offset.ElementOption;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.Test;
 
@@ -27,6 +28,8 @@ public class AppiumAPI {
     public static String packageName = null;
     public static String activityName = null;
     public static int pointAsAnInteger = 0;
+    private Dimension windowSize;
+
     public void initializeAPIDriver(AndroidDriver andriver,
                                     String packname,
                                     String actname){
@@ -35,6 +38,8 @@ public class AppiumAPI {
         activityName = actname;
         Dimension dimensions = driver.manage().window().getSize();
         Double point = dimensions.getHeight() * 0.45;
+        System.out.println("dimensions.getHeight() is : " + dimensions.getHeight());
+        System.out.println("point is : " + point);
         pointAsAnInteger = point.intValue();
     }
     public void clickListItem( String item){
@@ -62,7 +67,7 @@ public class AppiumAPI {
                 xpath_Count = driver.findElementsByXPath(xpath).size();
                 System.out.println("xpath count is : " + xpath_Count);
                 counter++;
-                if(counter>100){
+                if(counter>5){
                     break;
                 }
             } while (xpath_Count == 0);
@@ -74,51 +79,9 @@ public class AppiumAPI {
     }
 
     public void clickOnListTEXT(String text){
-//        driver.findElementByXPath("//android.widget.CheckedTextView[@text='ffff:ffff:ffff:ffff:fffc:: = /78']").click();
-        String classname = "//android.widget.CheckedTextView";
-        boolean classnamefound = false;
-        try {
-            //Assumption1: classname = android.widget.CheckedTextView
-            AndroidElement CTVelement = driver.findElementByClassName("android.widget.CheckedTextView");
-            classnamefound = true;
-        }catch(Exception e){
-            System.out.println("CheckedTextView does not exist");
-        }
-        if(classnamefound == false)
-        {
-            try{
-                //Assumption2: classname = android.widget.TextView
-                AndroidElement TVelement = driver.findElementByClassName("android.widget.TextView");
-                classnamefound = true;
-                classname = "//android.widget.TextView";
-            }catch(Exception e){
-                System.out.println("TextView does not exist");
-            }
-        }
 
-        String xpath = classname+"[@text='"+text+"']";
-        int xpath_Count = driver.findElementsByXPath(xpath).size();  //this is time consuming
-        System.out.println("xpath count is : " + xpath_Count);
-        if(xpath_Count == 0) {
-            int counter=0;
-            do {
-                TouchAction action = new TouchAction(driver);
-                action.press(PointOption.point(0, pointAsAnInteger * 2))
-                        .moveTo(PointOption.point(0, pointAsAnInteger))
-                        .release()
-                        .perform();
-                xpath_Count = driver.findElementsByXPath(xpath).size();
-                System.out.println("xpath count is : " + xpath_Count);
-                counter++;
-                if(counter>100){
-                    break;
-                }
-            } while (xpath_Count == 0);
-        }
-        AndroidElement element = driver.findElementByXPath(xpath);
-        if(element.isDisplayed()){
-            element.click();
-        }
+        driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(\""+text+"\").instance(0))").click();
+
     }
 
     public void clickOnListID(String id){
@@ -159,7 +122,7 @@ public class AppiumAPI {
                 xpath_Count = driver.findElementsByXPath(xpath).size();
                 System.out.println("xpath count is : " + xpath_Count);
                 counter++;
-                if(counter>100){
+                if(counter>5){
                     break;
                 }
             } while (xpath_Count == 0);
@@ -298,7 +261,7 @@ public class AppiumAPI {
                     element.click();
                 }
                 counter++;
-                if(counter>100){
+                if(counter>5){
                     break;
                 }
             } while (!element.isDisplayed());
