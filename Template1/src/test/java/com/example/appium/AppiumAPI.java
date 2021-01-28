@@ -41,6 +41,7 @@ public class AppiumAPI {
         System.out.println("dimensions.getHeight() is : " + dimensions.getHeight());
         System.out.println("point is : " + point);
         pointAsAnInteger = point.intValue();
+        driver.unlockDevice();
     }
     public void clickListItem( String item){
         String xpath = "//android.widget.CheckedTextView[@text='"+ item + "']";
