@@ -11,11 +11,11 @@ import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 
-public class DynamicNightLight {
+public class FreeOTP {
     private AndroidDriver<AndroidElement> driver;
     AppiumAPI api = new AppiumAPI();
-    String packageName = "de.quaddyservices.dynamicnightlight";
-    String activityName = "de.quaddyservices.dynamicnightlight.MainActivity";
+    String packageName = "org.fedorahosted.freeotp";
+    String activityName = "org.fedorahosted.freeotp.MainActivity";
     @Test
     @Parameters("runOn")
     public void test(@Optional("ZH33L2Z6KL") String runOn) {
@@ -42,14 +42,24 @@ public class DynamicNightLight {
             api.initializeAPIDriver(driver, packageName, activityName);
             Thread.sleep(5000);
 
-            api.clickOnMenuTEXT("Options");
-            api.clickOnStringTEXT("Max. Brightness");
-            api.clickOnListTEXT("90%");
-            api.EnableCheckboxID("0");
-            api.EnableCheckboxID("1");
+            api.clickOnElementRID("action_add");
+            api.enterTextRID("issuer", "xyz");
+            api.enterTextRID("label", "abcd");
+            api.enterTextRID("secret", "aaaaaaaa");
+            api.clickOnElementRID("totp");
+            api.clickOnElementRID("digits6");
+            api.clickOnElementRID("algorithm");
+            api.clickOnListTEXT("MD5");
+            api.enterTextRID("interval", "30");
+            api.clickOnButtonTEXT("Add");
+            api.clickOnElementRID("issuer");
+            api.clickOnElementRID("menu");
+            api.clickOnListTEXT("Delete");
+            api.clickOnButtonTEXT("Cancel");
+            api.clickOnElementRID("action_about");
             api.goBack();
-
-
+            api.clickOnElementRID("action_scan");
+            api.goBack();
 
             driver.quit();
             System.out.println("Test1 Exceution Ended");

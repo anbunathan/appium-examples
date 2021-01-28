@@ -149,7 +149,9 @@ public class AppiumAPI {
 //        driver.findElementById("com.zola.bmi:id/weightNum").sendKeys("90");
         AndroidElement element = driver.findElementById(resourceID);
         if(element.isDisplayed()){
+            element.clear();
             element.sendKeys(input);
+            driver.hideKeyboard();
         }
     }
 
