@@ -85,6 +85,11 @@ public class AppiumAPI {
 
     }
 
+//    public void clickOnListID(String id){
+//        int index = Integer.valueOf(id);
+//        driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().index("+index+").instance(0))").click();
+//    }
+
     public void clickOnListID(String id){
 //        driver.findElementByXPath("//android.widget.CheckedTextView[@index='1']").click();
         String classname = "//android.widget.CheckedTextView";
@@ -293,6 +298,24 @@ public class AppiumAPI {
 
     public void clickOnButtonID(String id) throws InterruptedException {
         String xpath = "//android.widget.Button[@index='"+id+"']";
+        AndroidElement element = driver.findElementByXPath(xpath);
+        if(element.isDisplayed()){
+            element.click();
+        }
+        Thread.sleep(1000);
+    }
+
+    public void clickOnRadioButtonTEXT(String text) throws InterruptedException {
+        String xpath = "//android.widget.RadioButton[@text='"+text+"']";
+        AndroidElement element = driver.findElementByXPath(xpath);
+        if(element.isDisplayed()){
+            element.click();
+        }
+        Thread.sleep(1000);
+    }
+
+    public void clickOnRadioButtonID(String id) throws InterruptedException {
+        String xpath = "//android.widget.RadioButton[@index='"+id+"']";
         AndroidElement element = driver.findElementByXPath(xpath);
         if(element.isDisplayed()){
             element.click();
