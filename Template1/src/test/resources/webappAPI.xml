@@ -6,7 +6,7 @@
         <parameter name="platform" value="mobile"></parameter>
         <parameter name="runOn" value="ZH33L2Z6KL"></parameter>
         <classes>
-            <class name="com.example.appium.Webapp_Parallel"/>
+            <class name="com.example.appium.WebappAPI"/>
         </classes>
     </test>
 <!--    <test name="Real Device2">-->

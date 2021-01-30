@@ -161,6 +161,15 @@ public class AppiumAPI {
         }
     }
 
+    public void enterWebTEXT(String text, String input) throws InterruptedException {
+        String xpath = "//input[@name="+text+"]";
+//        driver.findElementByXPath("//input[@name=\"q\"]").sendKeys("India");
+//        driver.pressKey(new KeyEvent(AndroidKey.ENTER));
+        driver.findElementByXPath(xpath).sendKeys(input);
+        enterKEY();
+        Thread.sleep(5000);
+    }
+
     public void assertTrueRID(String rid, String result){
         String resourceID = packageName+":id/"+rid;
         System.out.println("resourceID = "+resourceID);
@@ -248,6 +257,16 @@ public class AppiumAPI {
 
     public void goBack(){
         driver.pressKey(new KeyEvent(AndroidKey.BACK));
+    }
+
+    public void enterKEY(){
+        driver.pressKey(new KeyEvent(AndroidKey.ENTER));
+    }
+
+    public void getURL(String URL) throws InterruptedException {
+//        driver.get("http://google.com");
+        driver.get(URL);
+        Thread.sleep(5000);
     }
 
     public void clickOnStringTEXT(String text) throws InterruptedException {
