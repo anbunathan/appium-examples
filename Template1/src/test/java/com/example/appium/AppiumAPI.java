@@ -1,10 +1,7 @@
 package com.example.appium;
 
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.time.Duration;
-import java.util.Collections;
-import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import io.appium.java_client.android.AndroidTouchAction;
 import io.appium.java_client.android.nativekey.AndroidKey;
@@ -13,15 +10,14 @@ import io.appium.java_client.touch.LongPressOptions;
 import io.appium.java_client.touch.offset.ElementOption;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
-import org.openqa.selenium.Point;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.testng.annotations.Test;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
-import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
+
+import java.util.Set;
 
 public class AppiumAPI {
     public static AndroidDriver<AndroidElement> driver;
@@ -29,6 +25,7 @@ public class AppiumAPI {
     public static String activityName = null;
     public static int pointAsAnInteger = 0;
     private Dimension windowSize;
+    public static WebDriverWait wait;
 
     public void initializeAPIDriver(AndroidDriver andriver,
                                     String packname,
@@ -42,6 +39,7 @@ public class AppiumAPI {
         System.out.println("point is : " + point);
         pointAsAnInteger = point.intValue();
         driver.unlockDevice();
+        wait = new WebDriverWait(driver, 300);
     }
     public void clickListItem( String item){
         String xpath = "//android.widget.CheckedTextView[@text='"+ item + "']";
@@ -382,5 +380,47 @@ public class AppiumAPI {
             element.click();
         }
         Thread.sleep(1000);
+    }
+
+    public void clickOnWebElementWaitRID(String rid){
+//        wait.until(ExpectedConditions.visibilityOfElementLocated
+//                (By.id("com.snc.test.webview2:id/action_go_website"))).click();
+        String resourceID = packageName+":id/"+rid;
+        wait.until(ExpectedConditions.visibilityOfElementLocated
+                (By.id(resourceID))).click();
+    }
+
+    public void clickOnButtonRID(String rid) throws InterruptedException {
+        String id = "android:id/"+rid;
+        AndroidElement element = driver.findElementById(id);
+        if(element.isDisplayed()){
+            element.click();
+        }
+        Thread.sleep(1000);
+    }
+
+    public void assertOnWebElementWaitCLASS(String classname){
+        //By webView = By.className("android.webkit.WebView");
+        By webView = By.className(classname);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(webView));
+    }
+
+    public void setWebviewContext(String webviewcontext){
+        Set<String> availableContexts = driver.getContextHandles();
+        System.out.println("Total No of Context  = "+ availableContexts.size());
+        //Loop through contexts and select Webview
+        for(String context : availableContexts) {
+            System.out.println("Context Name is " + context);
+//            if(context.contains("WEBVIEW_com")){
+            if(context.contains(webviewcontext)){
+                System.out.println("Context Name with WEBVIEW is " + context);
+                driver.context(context);
+            }
+        }
+    }
+
+    public void waitInMS(String millisecs) throws InterruptedException {
+        int ms = Integer.valueOf(millisecs);
+        Thread.sleep(ms);
     }
 }
