@@ -25,7 +25,7 @@ public class TestCameraAI {
         capabilities.setCapability("platformName","Android");
         capabilities.setCapability("udid", "ZH33L2Z6KL");
         capabilities.setCapability("automationName", "UiAutomator2");
-        capabilities.setCapability("skipServerInstallation", "true");
+
         capabilities.setCapability("autoGrantPermissions", "true");
         capabilities.setCapability("skipDeviceInitialization", "true");
         capabilities.setCapability("noReset", "true");
@@ -37,11 +37,13 @@ public class TestCameraAI {
 
         capabilities.setCapability("appium:customFindModules", ImmutableMap.of("w3c",false));
         capabilities.setCapability("appium:customFindModules", customFindModules);
+        capabilities.setCapability("appium:skipServerInstallation", ImmutableMap.of("w3c",false));
+        capabilities.setCapability("appium:skipServerInstallation", "true");
         capabilities.setCapability("appium:shouldUseCompactResponses", ImmutableMap.of("w3c",false));
 
 
-        driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
-//        driver = new AndroidDriver(new URL("http://127.0.0.1:4444/wd/hub"), capabilities);
+//        driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
+        driver = new AndroidDriver(new URL("http://127.0.0.1:4444/wd/hub"), capabilities);
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
         driver.findElement(MobileBy.custom("ai:camera7")).click();

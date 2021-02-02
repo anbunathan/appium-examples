@@ -30,29 +30,18 @@ public class CameraAIAPI {
         capabilities.setCapability("platformName","Android");
         capabilities.setCapability("udid", "ZH33L2Z6KL");
         capabilities.setCapability("automationName", "UiAutomator2");
-        capabilities.setCapability("skipServerInstallation", "true");
         capabilities.setCapability("autoGrantPermissions", "true");
         capabilities.setCapability("skipDeviceInitialization", "true");
         capabilities.setCapability("noReset", "true");
-
-
-//        capabilities.setCapability("appPackage", "com.motorola.camera");
-//        capabilities.setCapability("appActivity","com.motorola.camera.Camera");
         capabilities.setCapability("appPackage", "net.sourceforge.opencamera");
         capabilities.setCapability("appActivity","net.sourceforge.opencamera.MainActivity");
-//        capabilities.setCapability("appPackage", "photo.camera.hdcameras");
-//        capabilities.setCapability("appActivity","com.android.camera.H5View");
-
-
         HashMap<String, String> customFindModules = new HashMap<String, String>();
         customFindModules.put("ai", "test-ai-classifier");
         capabilities.setCapability("appium:customFindModules", ImmutableMap.of("w3c",false));
         capabilities.setCapability("appium:customFindModules", customFindModules);
+        capabilities.setCapability("appium:skipServerInstallation", ImmutableMap.of("w3c",false));
+        capabilities.setCapability("appium:skipServerInstallation", "true");
         capabilities.setCapability("appium:shouldUseCompactResponses", ImmutableMap.of("w3c",false));
-
-//        capabilities.setCapability("customFindModules", customFindModules);
-//        capabilities.setCapability("shouldUseCompactResponses", false);
-
 
         driver = new AndroidDriver<AndroidElement>(new URL("http://127.0.0.1:4444/wd/hub"),capabilities);
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
