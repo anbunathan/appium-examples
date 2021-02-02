@@ -423,4 +423,14 @@ public class AppiumAPI {
         int ms = Integer.valueOf(millisecs);
         Thread.sleep(ms);
     }
+
+    public void clickOnAIElement(String label) throws InterruptedException {
+        //driver.findElement(MobileBy.custom("ai:camera7")).click();
+        String ai = "ai:"+label;
+        AndroidElement element = driver.findElementByCustom(ai);
+        if(element.isDisplayed()){
+            element.click();
+        }
+        Thread.sleep(1000);
+    }
 }
