@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="2" name="Test1(failed)" parallel="tests">
+    <parameter name="platformVersion_" value="6.0.1"/>
+    <parameter name="URL_" value="127.0.0.2:4723/wd/hub"/>
+    <parameter name="UDID_" value="LGH8451bb031b0"/>
+    <parameter name="deviceName_" value="G5 SE"/>
+    <classes>
+      <class name="com.example.appium.TestNGParallel">
+        <methods>
+          <include name="testAddition"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.example.appium.TestNGParallel -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,1238 @@
+!SESSION 2019-09-22 18:29:04.387 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -vm C:\Program Files (x86)\Java\jdk1.8.0_112\jre\bin\javaw.exe -vmargs -Djava.net.preferIPv4Stack=true -Dosgi.requiredJavaVersion=1.8 -Xms40m -Xmx512m -product org.eclipse.epp.package.jee.product -vm C:\Program Files (x86)\Java\jdk1.8.0_112\jre\bin\javaw.exe -vmargs -Djava.net.preferIPv4Stack=true -Dosgi.requiredJavaVersion=1.8 -Xms40m -Xmx512m
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product -vm C:\Program Files (x86)\Java\jdk1.8.0_112\jre\bin\javaw.exe -vmargs -Djava.net.preferIPv4Stack=true -Dosgi.requiredJavaVersion=1.8 -Xms40m -Xmx512m -data D:\workshop\Selenium\NewHorizon\seleniumtutorial -product org.eclipse.epp.package.jee.product -vm C:\Program Files (x86)\Java\jdk1.8.0_112\jre\bin\javaw.exe -vmargs -Djava.net.preferIPv4Stack=true -Dosgi.requiredJavaVersion=1.8 -Xms40m -Xmx512m
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-09-22 18:29:25.057
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Dell'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.jboss.tools.usage 4 0 2019-09-22 18:29:33.337
+!MESSAGE anonsvn.jboss.org
+!STACK 0
+java.net.UnknownHostException: anonsvn.jboss.org
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.request(HttpRemotePropertiesProvider.java:88)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.getMap(HttpRemotePropertiesProvider.java:56)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isAllInstancesReportingEnabled(GlobalUsageSettings.java:80)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isReportingEnabled(GlobalUsageSettings.java:64)
+	at org.jboss.tools.usage.event.UsageReporter$ReportingJob.run(UsageReporter.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.jboss.tools.usage 4 0 2019-09-22 18:29:33.348
+!MESSAGE anonsvn.jboss.org
+!STACK 0
+java.net.UnknownHostException: anonsvn.jboss.org
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.request(HttpRemotePropertiesProvider.java:88)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.getMap(HttpRemotePropertiesProvider.java:56)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isAllInstancesReportingEnabled(GlobalUsageSettings.java:80)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isReportingEnabled(GlobalUsageSettings.java:64)
+	at org.jboss.tools.usage.event.UsageReporter$ReportingJob.run(UsageReporter.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.jboss.tools.usage 4 0 2019-09-22 18:29:33.358
+!MESSAGE anonsvn.jboss.org
+!STACK 0
+java.net.UnknownHostException: anonsvn.jboss.org
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.request(HttpRemotePropertiesProvider.java:88)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.getMap(HttpRemotePropertiesProvider.java:56)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isAllInstancesReportingEnabled(GlobalUsageSettings.java:80)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isReportingEnabled(GlobalUsageSettings.java:64)
+	at org.jboss.tools.usage.event.UsageReporter$ReportingJob.run(UsageReporter.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.jboss.tools.usage 4 0 2019-09-22 18:29:33.363
+!MESSAGE anonsvn.jboss.org
+!STACK 0
+java.net.UnknownHostException: anonsvn.jboss.org
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.request(HttpRemotePropertiesProvider.java:88)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.getMap(HttpRemotePropertiesProvider.java:56)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isAllInstancesReportingEnabled(GlobalUsageSettings.java:80)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isReportingEnabled(GlobalUsageSettings.java:64)
+	at org.jboss.tools.usage.event.UsageReporter$ReportingJob.run(UsageReporter.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.jboss.tools.usage 4 0 2019-09-22 18:29:33.368
+!MESSAGE anonsvn.jboss.org
+!STACK 0
+java.net.UnknownHostException: anonsvn.jboss.org
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.request(HttpRemotePropertiesProvider.java:88)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.getMap(HttpRemotePropertiesProvider.java:56)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isAllInstancesReportingEnabled(GlobalUsageSettings.java:80)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isReportingEnabled(GlobalUsageSettings.java:64)
+	at org.jboss.tools.usage.event.UsageReporter$ReportingJob.run(UsageReporter.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.jboss.tools.usage 4 0 2019-09-22 18:35:33.371
+!MESSAGE anonsvn.jboss.org
+!STACK 0
+java.net.UnknownHostException: anonsvn.jboss.org
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.request(HttpRemotePropertiesProvider.java:88)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.getMap(HttpRemotePropertiesProvider.java:56)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isAllInstancesReportingEnabled(GlobalUsageSettings.java:80)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isReportingEnabled(GlobalUsageSettings.java:64)
+	at org.jboss.tools.usage.event.UsageReporter$ReportingJob.run(UsageReporter.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.jboss.tools.usage 4 0 2019-09-22 18:35:50.975
+!MESSAGE anonsvn.jboss.org
+!STACK 0
+java.net.UnknownHostException: anonsvn.jboss.org
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.request(HttpRemotePropertiesProvider.java:88)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.getMap(HttpRemotePropertiesProvider.java:56)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isAllInstancesReportingEnabled(GlobalUsageSettings.java:80)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isReportingEnabled(GlobalUsageSettings.java:64)
+	at org.jboss.tools.usage.event.UsageReporter$ReportingJob.run(UsageReporter.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2019-09-22 18:40:05.330 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -vm C:\Program Files (x86)\Java\jdk1.8.0_112\jre\bin\javaw.exe -vmargs -Djava.net.preferIPv4Stack=true -Dosgi.requiredJavaVersion=1.8 -Xms40m -Xmx512m -product org.eclipse.epp.package.jee.product -vm C:\Program Files (x86)\Java\jdk1.8.0_112\jre\bin\javaw.exe -vmargs -Djava.net.preferIPv4Stack=true -Dosgi.requiredJavaVersion=1.8 -Xms40m -Xmx512m -product org.eclipse.epp.package.jee.product -vm C:\Program Files (x86)\Java\jdk1.8.0_112\jre\bin\javaw.exe -vmargs -Djava.net.preferIPv4Stack=true -Dosgi.requiredJavaVersion=1.8 -Xms40m -Xmx512m -product org.eclipse.epp.package.jee.product -vm C:\Program Files (x86)\Java\jdk1.8.0_112\jre\bin\javaw.exe -vmargs -Djava.net.preferIPv4Stack=true -Dosgi.requiredJavaVersion=1.8 -Xms40m -Xmx512m
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product -vm C:\Program Files (x86)\Java\jdk1.8.0_112\jre\bin\javaw.exe -vmargs -Djava.net.preferIPv4Stack=true -Dosgi.requiredJavaVersion=1.8 -Xms40m -Xmx512m -product org.eclipse.epp.package.jee.product -vm C:\Program Files (x86)\Java\jdk1.8.0_112\jre\bin\javaw.exe -vmargs -Djava.net.preferIPv4Stack=true -Dosgi.requiredJavaVersion=1.8 -Xms40m -Xmx512m -product org.eclipse.epp.package.jee.product -vm C:\Program Files (x86)\Java\jdk1.8.0_112\jre\bin\javaw.exe -vmargs -Djava.net.preferIPv4Stack=true -Dosgi.requiredJavaVersion=1.8 -Xms40m -Xmx512m -data D:\workshop\Selenium\NewHorizon\seleniumtutorial -product org.eclipse.epp.package.jee.product -vm C:\Program Files (x86)\Java\jdk1.8.0_112\jre\bin\javaw.exe -vmargs -Djava.net.preferIPv4Stack=true -Dosgi.requiredJavaVersion=1.8 -Xms40m -Xmx512m
+
+!ENTRY org.jboss.tools.usage 4 0 2019-09-22 18:40:26.862
+!MESSAGE anonsvn.jboss.org
+!STACK 0
+java.net.UnknownHostException: anonsvn.jboss.org
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.request(HttpRemotePropertiesProvider.java:88)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.getMap(HttpRemotePropertiesProvider.java:56)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isAllInstancesReportingEnabled(GlobalUsageSettings.java:80)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isReportingEnabled(GlobalUsageSettings.java:64)
+	at org.jboss.tools.usage.event.UsageReporter$ReportingJob.run(UsageReporter.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.jboss.tools.usage 4 0 2019-09-22 18:40:26.868
+!MESSAGE anonsvn.jboss.org
+!STACK 0
+java.net.UnknownHostException: anonsvn.jboss.org
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.request(HttpRemotePropertiesProvider.java:88)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.getMap(HttpRemotePropertiesProvider.java:56)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isAllInstancesReportingEnabled(GlobalUsageSettings.java:80)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isReportingEnabled(GlobalUsageSettings.java:64)
+	at org.jboss.tools.usage.event.UsageReporter$ReportingJob.run(UsageReporter.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-09-22 18:40:29.818
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Dell'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.jboss.tools.usage 4 0 2019-09-22 18:40:30.321
+!MESSAGE anonsvn.jboss.org
+!STACK 0
+java.net.UnknownHostException: anonsvn.jboss.org
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.request(HttpRemotePropertiesProvider.java:88)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.getMap(HttpRemotePropertiesProvider.java:56)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isAllInstancesReportingEnabled(GlobalUsageSettings.java:80)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isReportingEnabled(GlobalUsageSettings.java:64)
+	at org.jboss.tools.usage.event.UsageReporter$ReportingJob.run(UsageReporter.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.jboss.tools.usage 4 0 2019-09-22 18:40:30.340
+!MESSAGE anonsvn.jboss.org
+!STACK 0
+java.net.UnknownHostException: anonsvn.jboss.org
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.request(HttpRemotePropertiesProvider.java:88)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.getMap(HttpRemotePropertiesProvider.java:56)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isAllInstancesReportingEnabled(GlobalUsageSettings.java:80)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isReportingEnabled(GlobalUsageSettings.java:64)
+	at org.jboss.tools.usage.event.UsageReporter$ReportingJob.run(UsageReporter.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.jboss.tools.usage 4 0 2019-09-22 18:40:30.351
+!MESSAGE anonsvn.jboss.org
+!STACK 0
+java.net.UnknownHostException: anonsvn.jboss.org
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.request(HttpRemotePropertiesProvider.java:88)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.getMap(HttpRemotePropertiesProvider.java:56)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isAllInstancesReportingEnabled(GlobalUsageSettings.java:80)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isReportingEnabled(GlobalUsageSettings.java:64)
+	at org.jboss.tools.usage.event.UsageReporter$ReportingJob.run(UsageReporter.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.jboss.tools.usage 4 0 2019-09-22 20:27:25.667
+!MESSAGE anonsvn.jboss.org
+!STACK 0
+java.net.UnknownHostException: anonsvn.jboss.org
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.request(HttpRemotePropertiesProvider.java:88)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.getMap(HttpRemotePropertiesProvider.java:56)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isAllInstancesReportingEnabled(GlobalUsageSettings.java:80)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isReportingEnabled(GlobalUsageSettings.java:64)
+	at org.jboss.tools.usage.event.UsageReporter$ReportingJob.run(UsageReporter.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.jboss.tools.usage 4 0 2019-09-22 20:38:51.547
+!MESSAGE anonsvn.jboss.org
+!STACK 0
+java.net.UnknownHostException: anonsvn.jboss.org
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.request(HttpRemotePropertiesProvider.java:88)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.getMap(HttpRemotePropertiesProvider.java:56)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isAllInstancesReportingEnabled(GlobalUsageSettings.java:80)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isReportingEnabled(GlobalUsageSettings.java:64)
+	at org.jboss.tools.usage.event.UsageReporter$ReportingJob.run(UsageReporter.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.jboss.tools.usage 4 0 2019-09-22 20:43:25.208
+!MESSAGE anonsvn.jboss.org
+!STACK 0
+java.net.UnknownHostException: anonsvn.jboss.org
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.request(HttpRemotePropertiesProvider.java:88)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.getMap(HttpRemotePropertiesProvider.java:56)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isAllInstancesReportingEnabled(GlobalUsageSettings.java:80)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isReportingEnabled(GlobalUsageSettings.java:64)
+	at org.jboss.tools.usage.event.UsageReporter$ReportingJob.run(UsageReporter.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.jboss.tools.usage 4 0 2019-09-22 20:47:41.859
+!MESSAGE anonsvn.jboss.org
+!STACK 0
+java.net.UnknownHostException: anonsvn.jboss.org
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.request(HttpRemotePropertiesProvider.java:88)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.getMap(HttpRemotePropertiesProvider.java:56)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isAllInstancesReportingEnabled(GlobalUsageSettings.java:80)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isReportingEnabled(GlobalUsageSettings.java:64)
+	at org.jboss.tools.usage.event.UsageReporter$ReportingJob.run(UsageReporter.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.jboss.tools.usage 4 0 2019-09-22 21:44:27.967
+!MESSAGE anonsvn.jboss.org
+!STACK 0
+java.net.UnknownHostException: anonsvn.jboss.org
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.request(HttpRemotePropertiesProvider.java:88)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.getMap(HttpRemotePropertiesProvider.java:56)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isAllInstancesReportingEnabled(GlobalUsageSettings.java:80)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isReportingEnabled(GlobalUsageSettings.java:64)
+	at org.jboss.tools.usage.event.UsageReporter$ReportingJob.run(UsageReporter.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.jboss.tools.usage 4 0 2019-09-22 21:49:01.916
+!MESSAGE anonsvn.jboss.org
+!STACK 0
+java.net.UnknownHostException: anonsvn.jboss.org
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.request(HttpRemotePropertiesProvider.java:88)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.getMap(HttpRemotePropertiesProvider.java:56)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isAllInstancesReportingEnabled(GlobalUsageSettings.java:80)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isReportingEnabled(GlobalUsageSettings.java:64)
+	at org.jboss.tools.usage.event.UsageReporter$ReportingJob.run(UsageReporter.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.jboss.tools.usage 4 0 2019-09-22 21:53:43.044
+!MESSAGE anonsvn.jboss.org
+!STACK 0
+java.net.UnknownHostException: anonsvn.jboss.org
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.request(HttpRemotePropertiesProvider.java:88)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.getMap(HttpRemotePropertiesProvider.java:56)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isAllInstancesReportingEnabled(GlobalUsageSettings.java:80)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isReportingEnabled(GlobalUsageSettings.java:64)
+	at org.jboss.tools.usage.event.UsageReporter$ReportingJob.run(UsageReporter.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.jboss.tools.usage 4 0 2019-09-22 21:56:39.070
+!MESSAGE anonsvn.jboss.org
+!STACK 0
+java.net.UnknownHostException: anonsvn.jboss.org
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.request(HttpRemotePropertiesProvider.java:88)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.getMap(HttpRemotePropertiesProvider.java:56)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isAllInstancesReportingEnabled(GlobalUsageSettings.java:80)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isReportingEnabled(GlobalUsageSettings.java:64)
+	at org.jboss.tools.usage.event.UsageReporter$ReportingJob.run(UsageReporter.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.jboss.tools.usage 4 0 2019-09-22 22:11:03.467
+!MESSAGE anonsvn.jboss.org
+!STACK 0
+java.net.UnknownHostException: anonsvn.jboss.org
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.request(HttpRemotePropertiesProvider.java:88)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.getMap(HttpRemotePropertiesProvider.java:56)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isAllInstancesReportingEnabled(GlobalUsageSettings.java:80)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isReportingEnabled(GlobalUsageSettings.java:64)
+	at org.jboss.tools.usage.event.UsageReporter$ReportingJob.run(UsageReporter.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.jboss.tools.usage 4 0 2019-09-22 22:15:21.925
+!MESSAGE anonsvn.jboss.org
+!STACK 0
+java.net.UnknownHostException: anonsvn.jboss.org
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.request(HttpRemotePropertiesProvider.java:88)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.getMap(HttpRemotePropertiesProvider.java:56)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isAllInstancesReportingEnabled(GlobalUsageSettings.java:80)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isReportingEnabled(GlobalUsageSettings.java:64)
+	at org.jboss.tools.usage.event.UsageReporter$ReportingJob.run(UsageReporter.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2019-09-23 13:31:36.819 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -vm C:\Program Files (x86)\Java\jdk1.8.0_112\jre\bin\javaw.exe -vmargs -Djava.net.preferIPv4Stack=true -Dosgi.requiredJavaVersion=1.8 -Xms40m -Xmx512m
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product -vm C:\Program Files (x86)\Java\jdk1.8.0_112\jre\bin\javaw.exe -vmargs -Djava.net.preferIPv4Stack=true -Dosgi.requiredJavaVersion=1.8 -Xms40m -Xmx512m
+
+!ENTRY org.jboss.tools.usage 4 0 2019-09-23 13:32:35.956
+!MESSAGE anonsvn.jboss.org
+!STACK 0
+java.net.UnknownHostException: anonsvn.jboss.org
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.request(HttpRemotePropertiesProvider.java:88)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.getMap(HttpRemotePropertiesProvider.java:56)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isAllInstancesReportingEnabled(GlobalUsageSettings.java:80)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isReportingEnabled(GlobalUsageSettings.java:64)
+	at org.jboss.tools.usage.event.UsageReporter$ReportingJob.run(UsageReporter.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.jboss.tools.usage 4 0 2019-09-23 13:32:36.003
+!MESSAGE anonsvn.jboss.org
+!STACK 0
+java.net.UnknownHostException: anonsvn.jboss.org
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.request(HttpRemotePropertiesProvider.java:88)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.getMap(HttpRemotePropertiesProvider.java:56)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isAllInstancesReportingEnabled(GlobalUsageSettings.java:80)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isReportingEnabled(GlobalUsageSettings.java:64)
+	at org.jboss.tools.usage.event.UsageReporter$ReportingJob.run(UsageReporter.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-09-23 13:32:37.565
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Dell'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.jboss.tools.usage 4 0 2019-09-23 13:32:38.549
+!MESSAGE anonsvn.jboss.org
+!STACK 0
+java.net.UnknownHostException: anonsvn.jboss.org
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.request(HttpRemotePropertiesProvider.java:88)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.getMap(HttpRemotePropertiesProvider.java:56)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isAllInstancesReportingEnabled(GlobalUsageSettings.java:80)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isReportingEnabled(GlobalUsageSettings.java:64)
+	at org.jboss.tools.usage.event.UsageReporter$ReportingJob.run(UsageReporter.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.jboss.tools.usage 4 0 2019-09-23 13:32:38.565
+!MESSAGE anonsvn.jboss.org
+!STACK 0
+java.net.UnknownHostException: anonsvn.jboss.org
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.request(HttpRemotePropertiesProvider.java:88)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.getMap(HttpRemotePropertiesProvider.java:56)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isAllInstancesReportingEnabled(GlobalUsageSettings.java:80)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isReportingEnabled(GlobalUsageSettings.java:64)
+	at org.jboss.tools.usage.event.UsageReporter$ReportingJob.run(UsageReporter.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.jboss.tools.usage 4 0 2019-09-23 13:32:38.565
+!MESSAGE anonsvn.jboss.org
+!STACK 0
+java.net.UnknownHostException: anonsvn.jboss.org
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.request(HttpRemotePropertiesProvider.java:88)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.getMap(HttpRemotePropertiesProvider.java:56)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isAllInstancesReportingEnabled(GlobalUsageSettings.java:80)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isReportingEnabled(GlobalUsageSettings.java:64)
+	at org.jboss.tools.usage.event.UsageReporter$ReportingJob.run(UsageReporter.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2019-09-23 14:35:23.789 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -vm C:\Program Files (x86)\Java\jdk1.8.0_112\jre\bin\javaw.exe -vmargs -Djava.net.preferIPv4Stack=true -Dosgi.requiredJavaVersion=1.8 -Xms40m -Xmx512m
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product -vm C:\Program Files (x86)\Java\jdk1.8.0_112\jre\bin\javaw.exe -vmargs -Djava.net.preferIPv4Stack=true -Dosgi.requiredJavaVersion=1.8 -Xms40m -Xmx512m
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-09-23 14:35:42.376
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Dell'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2019-10-01 10:14:19.060 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -vm C:\Program Files (x86)\Java\jdk1.8.0_112\jre\bin\javaw.exe -vmargs -Djava.net.preferIPv4Stack=true -Dosgi.requiredJavaVersion=1.8 -Xms40m -Xmx512m
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product -vm C:\Program Files (x86)\Java\jdk1.8.0_112\jre\bin\javaw.exe -vmargs -Djava.net.preferIPv4Stack=true -Dosgi.requiredJavaVersion=1.8 -Xms40m -Xmx512m
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-10-01 10:15:21.167
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Dell'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.jboss.tools.usage 4 0 2019-10-01 10:15:29.349
+!MESSAGE anonsvn.jboss.org
+!STACK 0
+java.net.UnknownHostException: anonsvn.jboss.org
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.request(HttpRemotePropertiesProvider.java:88)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.getMap(HttpRemotePropertiesProvider.java:56)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isAllInstancesReportingEnabled(GlobalUsageSettings.java:80)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isReportingEnabled(GlobalUsageSettings.java:64)
+	at org.jboss.tools.usage.event.UsageReporter$ReportingJob.run(UsageReporter.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.jboss.tools.usage 4 0 2019-10-01 10:15:29.365
+!MESSAGE anonsvn.jboss.org
+!STACK 0
+java.net.UnknownHostException: anonsvn.jboss.org
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.request(HttpRemotePropertiesProvider.java:88)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.getMap(HttpRemotePropertiesProvider.java:56)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isAllInstancesReportingEnabled(GlobalUsageSettings.java:80)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isReportingEnabled(GlobalUsageSettings.java:64)
+	at org.jboss.tools.usage.event.UsageReporter$ReportingJob.run(UsageReporter.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.jboss.tools.usage 4 0 2019-10-01 10:15:29.380
+!MESSAGE anonsvn.jboss.org
+!STACK 0
+java.net.UnknownHostException: anonsvn.jboss.org
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.request(HttpRemotePropertiesProvider.java:88)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.getMap(HttpRemotePropertiesProvider.java:56)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isAllInstancesReportingEnabled(GlobalUsageSettings.java:80)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isReportingEnabled(GlobalUsageSettings.java:64)
+	at org.jboss.tools.usage.event.UsageReporter$ReportingJob.run(UsageReporter.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.jboss.tools.usage 4 0 2019-10-01 10:15:29.380
+!MESSAGE anonsvn.jboss.org
+!STACK 0
+java.net.UnknownHostException: anonsvn.jboss.org
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.request(HttpRemotePropertiesProvider.java:88)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.getMap(HttpRemotePropertiesProvider.java:56)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isAllInstancesReportingEnabled(GlobalUsageSettings.java:80)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isReportingEnabled(GlobalUsageSettings.java:64)
+	at org.jboss.tools.usage.event.UsageReporter$ReportingJob.run(UsageReporter.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.jboss.tools.usage 4 0 2019-10-01 10:15:29.402
+!MESSAGE anonsvn.jboss.org
+!STACK 0
+java.net.UnknownHostException: anonsvn.jboss.org
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.request(HttpRemotePropertiesProvider.java:88)
+	at org.jboss.tools.usage.internal.http.HttpRemotePropertiesProvider.getMap(HttpRemotePropertiesProvider.java:56)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isAllInstancesReportingEnabled(GlobalUsageSettings.java:80)
+	at org.jboss.tools.usage.internal.preferences.GlobalUsageSettings.isReportingEnabled(GlobalUsageSettings.java:64)
+	at org.jboss.tools.usage.event.UsageReporter$ReportingJob.run(UsageReporter.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.testng.eclipse 4 4 2019-10-01 10:25:55.427
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Java Model Status [seleniumnhce [in Selenium] is not on its project's build path]
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:566)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:247)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:505)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:241)
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:505)
+	at org.eclipse.jdt.internal.core.CompilationUnit.openAncestors(CompilationUnit.java:1173)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:241)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:579)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:316)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:302)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:257)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:271)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getTypes(CompilationUnit.java:920)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getAllTypes(CompilationUnit.java:605)
+	at org.testng.eclipse.util.TestSearchEngine.isTest(TestSearchEngine.java:208)
+	at org.testng.eclipse.launch.tester.JavaTypeExtender.isTest(JavaTypeExtender.java:29)
+	at org.testng.eclipse.launch.tester.JavaTypeExtender.test(JavaTypeExtender.java:14)
+	at org.testng.eclipse.launch.tester.TestNGPropertyTester.isTestClass(TestNGPropertyTester.java:60)
+	at org.testng.eclipse.launch.tester.TestNGPropertyTester.test(TestNGPropertyTester.java:42)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:99)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:150)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:72)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:53)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.evalEnablementExpression(LaunchShortcutExtension.java:281)
+	at org.eclipse.debug.ui.actions.ContextualLaunchAction.isApplicable(ContextualLaunchAction.java:287)
+	at org.eclipse.debug.ui.actions.ContextualLaunchAction.fillMenu(ContextualLaunchAction.java:218)
+	at org.eclipse.debug.ui.actions.ContextualLaunchAction$1.menuShown(ContextualLaunchAction.java:141)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:255)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1085)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1070)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:782)
+	at org.eclipse.jface.action.ActionContributionItem.copyMenu(ActionContributionItem.java:1276)
+	at org.eclipse.jface.action.ActionContributionItem.handleShowProxy(ActionContributionItem.java:1256)
+	at org.eclipse.jface.action.ActionContributionItem.access$4(ActionContributionItem.java:1245)
+	at org.eclipse.jface.action.ActionContributionItem$8.handleEvent(ActionContributionItem.java:1218)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1085)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:4963)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4639)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:339)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1626)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2075)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:256)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3755)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2019-10-01 10:25:55.430
+!MESSAGE seleniumnhce [in Selenium] is not on its project's build path
+!SESSION 2019-10-01 14:29:14.574 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -vm C:\Program Files (x86)\Java\jdk1.8.0_112\jre\bin\javaw.exe -vmargs -Djava.net.preferIPv4Stack=true -Dosgi.requiredJavaVersion=1.8 -Xms40m -Xmx512m
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product -vm C:\Program Files (x86)\Java\jdk1.8.0_112\jre\bin\javaw.exe -vmargs -Djava.net.preferIPv4Stack=true -Dosgi.requiredJavaVersion=1.8 -Xms40m -Xmx512m
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-10-01 14:30:15.731
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Dell'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-08-07 09:39:00.108 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_251
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.equinox.ds 2 0 2020-08-07 09:39:40.761
+!MESSAGE [SCR - WorkThread] Timeout occurred! Thread was blocked on processing [QueuedJob] WorkPerformer: org.eclipse.equinox.internal.ds.SCRManager@c07ec6; actionType 1
+
+!ENTRY org.eclipse.equinox.ds 2 0 2020-08-07 09:39:40.770
+!MESSAGE [SCR] Enabling components of bundle org.eclipse.update.configurator did not complete in 30000 ms 
+
+!ENTRY org.eclipse.osgi 2 0 2020-08-07 09:41:03.291
+!MESSAGE While loading class "org.eclipse.wb.internal.core.editor.describer.JavaSourceUiDescriber", thread "Thread[Compiler Source File Reader,5,main]" timed out waiting (5004ms) for thread "Thread[Compiler Source File Reader,5,main]" to finish starting bundle "org.eclipse.wb.core_1.7.0.r44x201405021445 [1514]". To avoid deadlock, thread "Thread[Compiler Source File Reader,5,main]" is proceeding but "org.eclipse.wb.internal.core.editor.describer.JavaSourceUiDescriber" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; osgi.identity="org.eclipse.wb.core"; type="osgi.bundle"; version:Version="1.7.0.r44x201405021445"; singleton:="true" [id=1514] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:329)
+	at org.eclipse.osgi.container.Module.start(Module.java:389)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:320)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:391)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:337)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:568)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.core.internal.content.ContentType.getDescriber(ContentType.java:271)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.collectMatchingByContents(ContentTypeCatalog.java:184)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.internalFindContentTypesFor(ContentTypeCatalog.java:403)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.internalFindContentTypesFor(ContentTypeCatalog.java:450)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.getDescriptionFor(ContentTypeCatalog.java:346)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.getDescriptionFor(ContentTypeCatalog.java:360)
+	at org.eclipse.core.internal.content.ContentTypeMatcher.getDescriptionFor(ContentTypeMatcher.java:86)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager.readDescription(ContentDescriptionManager.java:445)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager.getDescriptionFor(ContentDescriptionManager.java:355)
+	at org.eclipse.core.internal.resources.File.internalGetCharset(File.java:247)
+	at org.eclipse.core.internal.resources.File.getCharset(File.java:208)
+	at org.eclipse.core.internal.resources.File.getCharset(File.java:195)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1157)
+	at org.eclipse.jdt.internal.core.builder.SourceFile.getContents(SourceFile.java:79)
+	at org.eclipse.jdt.internal.compiler.ReadManager.run(ReadManager.java:174)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.osgi 2 0 2020-08-07 09:41:03.359
+!MESSAGE While loading class "org.eclipse.wb.internal.core.editor.describer.JavaSourceUiDescriber", thread "Thread[Compiler Source File Reader,5,main]" timed out waiting (5004ms) for thread "Thread[Compiler Source File Reader,5,main]" to finish starting bundle "org.eclipse.wb.core_1.7.0.r44x201405021445 [1514]". To avoid deadlock, thread "Thread[Compiler Source File Reader,5,main]" is proceeding but "org.eclipse.wb.internal.core.editor.describer.JavaSourceUiDescriber" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; osgi.identity="org.eclipse.wb.core"; type="osgi.bundle"; version:Version="1.7.0.r44x201405021445"; singleton:="true" [id=1514] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:329)
+	at org.eclipse.osgi.container.Module.start(Module.java:389)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:320)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:391)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:337)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:568)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.core.internal.content.ContentType.getDescriber(ContentType.java:271)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.collectMatchingByContents(ContentTypeCatalog.java:184)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.internalFindContentTypesFor(ContentTypeCatalog.java:403)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.internalFindContentTypesFor(ContentTypeCatalog.java:450)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.getDescriptionFor(ContentTypeCatalog.java:346)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.getDescriptionFor(ContentTypeCatalog.java:360)
+	at org.eclipse.core.internal.content.ContentTypeMatcher.getDescriptionFor(ContentTypeMatcher.java:86)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager.readDescription(ContentDescriptionManager.java:445)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager.getDescriptionFor(ContentDescriptionManager.java:355)
+	at org.eclipse.core.internal.resources.File.internalGetCharset(File.java:247)
+	at org.eclipse.core.internal.resources.File.getCharset(File.java:208)
+	at org.eclipse.core.internal.resources.File.getCharset(File.java:195)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1157)
+	at org.eclipse.jdt.internal.core.builder.SourceFile.getContents(SourceFile.java:79)
+	at org.eclipse.jdt.internal.compiler.ReadManager.run(ReadManager.java:174)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.osgi 2 0 2020-08-07 09:41:03.364
+!MESSAGE While loading class "org.eclipse.wb.internal.core.editor.describer.JavaSourceUiDescriber", thread "Thread[Compiler Source File Reader,5,main]" timed out waiting (5004ms) for thread "Thread[Compiler Source File Reader,5,main]" to finish starting bundle "org.eclipse.wb.core_1.7.0.r44x201405021445 [1514]". To avoid deadlock, thread "Thread[Compiler Source File Reader,5,main]" is proceeding but "org.eclipse.wb.internal.core.editor.describer.JavaSourceUiDescriber" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; osgi.identity="org.eclipse.wb.core"; type="osgi.bundle"; version:Version="1.7.0.r44x201405021445"; singleton:="true" [id=1514] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:329)
+	at org.eclipse.osgi.container.Module.start(Module.java:389)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:320)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:391)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:337)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:568)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.core.internal.content.ContentType.getDescriber(ContentType.java:271)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.collectMatchingByContents(ContentTypeCatalog.java:184)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.internalFindContentTypesFor(ContentTypeCatalog.java:403)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.internalFindContentTypesFor(ContentTypeCatalog.java:450)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.getDescriptionFor(ContentTypeCatalog.java:346)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.getDescriptionFor(ContentTypeCatalog.java:360)
+	at org.eclipse.core.internal.content.ContentTypeMatcher.getDescriptionFor(ContentTypeMatcher.java:86)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager.readDescription(ContentDescriptionManager.java:445)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager.getDescriptionFor(ContentDescriptionManager.java:355)
+	at org.eclipse.core.internal.resources.File.internalGetCharset(File.java:247)
+	at org.eclipse.core.internal.resources.File.getCharset(File.java:208)
+	at org.eclipse.core.internal.resources.File.getCharset(File.java:195)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1157)
+	at org.eclipse.jdt.internal.core.builder.SourceFile.getContents(SourceFile.java:79)
+	at org.eclipse.jdt.internal.compiler.ReadManager.run(ReadManager.java:174)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.osgi 2 0 2020-08-07 09:41:03.367
+!MESSAGE While loading class "org.eclipse.wb.internal.core.editor.describer.JavaSourceUiDescriber", thread "Thread[Worker-3,5,main]" timed out waiting (5004ms) for thread "Thread[Compiler Source File Reader,5,main]" to finish starting bundle "org.eclipse.wb.core_1.7.0.r44x201405021445 [1514]". To avoid deadlock, thread "Thread[Worker-3,5,main]" is proceeding but "org.eclipse.wb.internal.core.editor.describer.JavaSourceUiDescriber" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; osgi.identity="org.eclipse.wb.core"; type="osgi.bundle"; version:Version="1.7.0.r44x201405021445"; singleton:="true" [id=1514] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:329)
+	at org.eclipse.osgi.container.Module.start(Module.java:389)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:320)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:391)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:337)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:568)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.core.internal.content.ContentType.getDescriber(ContentType.java:271)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.collectMatchingByContents(ContentTypeCatalog.java:184)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.internalFindContentTypesFor(ContentTypeCatalog.java:403)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.internalFindContentTypesFor(ContentTypeCatalog.java:450)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.getDescriptionFor(ContentTypeCatalog.java:346)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.getDescriptionFor(ContentTypeCatalog.java:360)
+	at org.eclipse.core.internal.content.ContentTypeMatcher.getDescriptionFor(ContentTypeMatcher.java:86)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager.readDescription(ContentDescriptionManager.java:445)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager.getDescriptionFor(ContentDescriptionManager.java:355)
+	at org.eclipse.core.internal.resources.File.internalGetCharset(File.java:247)
+	at org.eclipse.core.internal.resources.File.getCharset(File.java:208)
+	at org.eclipse.core.internal.resources.File.getCharset(File.java:195)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1157)
+	at org.eclipse.jdt.internal.core.builder.SourceFile.getContents(SourceFile.java:79)
+	at org.eclipse.jdt.internal.compiler.ReadManager.getContents(ReadManager.java:145)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:11286)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:11258)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:9673)
+	at org.eclipse.jdt.internal.compiler.Compiler.internalBeginToCompile(Compiler.java:718)
+	at org.eclipse.jdt.internal.compiler.Compiler.beginToCompile(Compiler.java:383)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:428)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:367)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.compile(BatchImageBuilder.java:179)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:304)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:61)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:186)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.osgi 2 0 2020-08-07 09:41:03.369
+!MESSAGE While loading class "org.eclipse.wb.internal.core.editor.describer.JavaSourceUiDescriber", thread "Thread[Compiler Source File Reader,5,main]" timed out waiting (5004ms) for thread "Thread[Compiler Source File Reader,5,main]" to finish starting bundle "org.eclipse.wb.core_1.7.0.r44x201405021445 [1514]". To avoid deadlock, thread "Thread[Compiler Source File Reader,5,main]" is proceeding but "org.eclipse.wb.internal.core.editor.describer.JavaSourceUiDescriber" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; osgi.identity="org.eclipse.wb.core"; type="osgi.bundle"; version:Version="1.7.0.r44x201405021445"; singleton:="true" [id=1514] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:329)
+	at org.eclipse.osgi.container.Module.start(Module.java:389)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:320)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:391)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:337)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:568)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.core.internal.content.ContentType.getDescriber(ContentType.java:271)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.collectMatchingByContents(ContentTypeCatalog.java:184)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.internalFindContentTypesFor(ContentTypeCatalog.java:403)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.internalFindContentTypesFor(ContentTypeCatalog.java:450)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.getDescriptionFor(ContentTypeCatalog.java:346)
+	at org.eclipse.core.internal.content.ContentTypeCatalog.getDescriptionFor(ContentTypeCatalog.java:360)
+	at org.eclipse.core.internal.content.ContentTypeMatcher.getDescriptionFor(ContentTypeMatcher.java:86)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager.readDescription(ContentDescriptionManager.java:445)
+	at org.eclipse.core.internal.resources.ContentDescriptionManager.getDescriptionFor(ContentDescriptionManager.java:355)
+	at org.eclipse.core.internal.resources.File.internalGetCharset(File.java:247)
+	at org.eclipse.core.internal.resources.File.getCharset(File.java:208)
+	at org.eclipse.core.internal.resources.File.getCharset(File.java:195)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1157)
+	at org.eclipse.jdt.internal.core.builder.SourceFile.getContents(SourceFile.java:79)
+	at org.eclipse.jdt.internal.compiler.ReadManager.run(ReadManager.java:174)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-08-07 09:41:10.457
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\natha'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

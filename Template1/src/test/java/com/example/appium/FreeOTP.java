@@ -43,14 +43,14 @@ public class FreeOTP {
             Thread.sleep(5000);
 
             api.clickOnElementRID("action_add");
-            api.enterTextRID("issuer", "xyz");
-            api.enterTextRID("label", "abcd");
-            api.enterTextRID("secret", "aaaaaaaa");
+            api.enterStringRID("issuer", "xyz");
+            api.enterStringRID("label", "abcd");
+            api.enterStringRID("secret", "aaaaaaaa");
             api.clickOnElementRID("totp");
             api.clickOnElementRID("digits6");
             api.clickOnElementRID("algorithm");
             api.clickOnListTEXT("MD5");
-            api.enterTextRID("interval", "30");
+            api.enterStringRID("interval", "30");
             api.clickOnButtonTEXT("Add");
             api.clickOnElementRID("issuer");
             api.clickOnElementRID("menu");

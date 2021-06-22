@@ -1,0 +1,4 @@
+Calculator -> Default Android native
+Open Camera -> Install from Play Store
+Walmart -> Install from Play Store
+Chrome -> Upgrade to version 87.0.xx

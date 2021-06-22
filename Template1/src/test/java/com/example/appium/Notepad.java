@@ -43,10 +43,10 @@ public class Notepad {
             Thread.sleep(5000);
 
             api.clickOnElementRID("menu_add");
-            api.enterTextRID("note", "Hi");
+            api.enterStringRID("note", "Hi");
             api.clickOnElementRID("menu_delete");
             api.clickOnElementRID("menu_add");
-            api.enterTextRID("note", "Hi");
+            api.enterStringRID("note", "Hi");
             api.clickOnElementRID("menu_save");
             api.clickOnListTEXT("Hi");
             api.clickOnMenuTEXT("Edit title");

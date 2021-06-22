@@ -53,12 +53,12 @@ public class Counter {
             api.goBack();
             api.clickOnImageButtonID("0");
             api.clickOnStringTEXT("Add counter");
-            api.enterTextRID("edit_name", "hi");
-            api.enterTextRID("edit_value", "2");
+            api.enterStringRID("edit_name", "hi");
+            api.enterStringRID("edit_value", "2");
             api.clickOnButtonTEXT("CANCEL");
             api.clickOnStringTEXT("Add counter");
-            api.enterTextRID("edit_name", "hi");
-            api.enterTextRID("edit_value", "2");
+            api.enterStringRID("edit_name", "hi");
+            api.enterStringRID("edit_value", "2");
             api.clickOnButtonTEXT("ADD");
             api.clickOnElementRID("incrementButton");
             api.clickOnElementRID("menu_reset");

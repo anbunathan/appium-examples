@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="94136" started-at="2021-06-22T20:53:05 IST" finished-at="2021-06-22T20:54:39 IST">
+    <groups>
+    </groups>
+    <test name="Subtraction" duration-ms="33656" started-at="2021-06-22T20:53:05 IST" finished-at="2021-06-22T20:53:38 IST">
+      <class name="com.example.appium.TestNGSubtract">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.example.appium.TestNGSubtract@76f2b07d]" name="beforeTest" is-config="true" duration-ms="26527" started-at="2021-06-22T20:53:05 IST" finished-at="2021-06-22T20:53:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testSubtract()[pri:0, instance:com.example.appium.TestNGSubtract@76f2b07d]" name="testSubtract" duration-ms="4942" started-at="2021-06-22T20:53:31 IST" finished-at="2021-06-22T20:53:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtract -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.example.appium.TestNGSubtract@76f2b07d]" name="afterTest" is-config="true" duration-ms="2117" started-at="2021-06-22T20:53:36 IST" finished-at="2021-06-22T20:53:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.example.appium.TestNGSubtract -->
+    </test> <!-- Subtraction -->
+    <test name="Multiplication" duration-ms="29465" started-at="2021-06-22T20:53:39 IST" finished-at="2021-06-22T20:54:08 IST">
+      <class name="com.example.appium.TestNGMultiply">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.example.appium.TestNGMultiply@1a8a8f7c]" name="beforeTest" is-config="true" duration-ms="22096" started-at="2021-06-22T20:53:39 IST" finished-at="2021-06-22T20:54:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testMultiplication()[pri:0, instance:com.example.appium.TestNGMultiply@1a8a8f7c]" name="testMultiplication" duration-ms="5113" started-at="2021-06-22T20:54:01 IST" finished-at="2021-06-22T20:54:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplication -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.example.appium.TestNGMultiply@1a8a8f7c]" name="afterTest" is-config="true" duration-ms="2248" started-at="2021-06-22T20:54:06 IST" finished-at="2021-06-22T20:54:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.example.appium.TestNGMultiply -->
+    </test> <!-- Multiplication -->
+    <test name="Division" duration-ms="30795" started-at="2021-06-22T20:54:08 IST" finished-at="2021-06-22T20:54:39 IST">
+      <class name="com.example.appium.TestNGDivde">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.example.appium.TestNGDivde@fad74ee]" name="beforeTest" is-config="true" duration-ms="23692" started-at="2021-06-22T20:54:08 IST" finished-at="2021-06-22T20:54:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testDivision()[pri:0, instance:com.example.appium.TestNGDivde@fad74ee]" name="testDivision" duration-ms="5058" started-at="2021-06-22T20:54:32 IST" finished-at="2021-06-22T20:54:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivision -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.example.appium.TestNGDivde@fad74ee]" name="afterTest" is-config="true" duration-ms="2040" started-at="2021-06-22T20:54:37 IST" finished-at="2021-06-22T20:54:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.example.appium.TestNGDivde -->
+    </test> <!-- Division -->
+  </suite> <!-- Suite1 -->
+</testng-results>

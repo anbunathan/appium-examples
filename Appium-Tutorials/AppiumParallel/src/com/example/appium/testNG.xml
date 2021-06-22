@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="tests" thread-count="2">
+	<test name="Test1">
+		<parameter name="deviceName_" value="G5 SE"/>
+		<parameter name="UDID_" value="LGH8451bb031b0"/>
+		<parameter name="platformVersion_" value="6.0.1"/>
+		<parameter name="URL_" value="127.0.0.2:4723/wd/hub"/>
+		<classes>
+			<class name="com.example.appium.TestNGParallel">
+			<methods>
+				<include name="testAddition" />
+			</methods>
+			</class>
+		</classes>		
+	</test> <!-- Test 1 -->
+	<test name="Test2">
+		<parameter name="deviceName_" value="Emulator"/>
+		<parameter name="UDID_" value="emulator-5554"/>
+		<parameter name="platformVersion_" value="6.0"/>
+		<parameter name="URL_" value="127.0.0.5:5000/wd/hub"/>
+		<classes>
+			<class name="com.example.appium.TestNGParallel1">
+			<methods>
+				<include name="testSubtract" />
+			</methods>
+			</class>
+		</classes>		
+	</test> <!-- Test 2 -->
+</suite> <!-- Suite -->

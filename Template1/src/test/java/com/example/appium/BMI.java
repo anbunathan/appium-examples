@@ -53,8 +53,8 @@ public class BMI {
 //            driver.findElementById("com.zola.bmi:id/weightNum").sendKeys("90");
 //            driver.findElementById("com.zola.bmi:id/heightNum").sendKeys("60");
 //            driver.findElementById("com.zola.bmi:id/calcBMI").click();
-            api.enterTextRID("weightNum", "90");
-            api.enterTextRID("heightNum", "60");
+            api.enterStringRID("weightNum", "90");
+            api.enterStringRID("heightNum", "60");
             api.clickOnElementRID("calcBMI");
 //            WebElement results=driver.findElementById("com.zola.bmi:id/resultLabel");
 //            assert results.getText().contains("Obese"):"Actual value is : "+results.getText()+" did not match with expected value: Obese";

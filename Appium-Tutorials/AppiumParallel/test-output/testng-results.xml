@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="34572" started-at="2019-08-06T07:13:41Z" finished-at="2019-08-06T07:14:16Z">
+    <groups>
+    </groups>
+    <test name="Test2" duration-ms="19922" started-at="2019-08-06T07:13:41Z" finished-at="2019-08-06T07:14:01Z">
+      <class name="com.example.appium.TestNGParallel1">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.example.appium.TestNGParallel1@27c20538]" name="beforeMethod" is-config="true" duration-ms="9995" started-at="2019-08-06T07:13:41Z" finished-at="2019-08-06T07:13:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Emulator]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[127.0.0.5:5000/wd/hub]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSubtract()[pri:0, instance:com.example.appium.TestNGParallel1@27c20538]" name="testSubtract" duration-ms="7215" started-at="2019-08-06T07:13:51Z" finished-at="2019-08-06T07:13:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtract -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.example.appium.TestNGParallel1@27c20538]" name="afterMethod" is-config="true" duration-ms="2680" started-at="2019-08-06T07:13:58Z" finished-at="2019-08-06T07:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.example.appium.TestNGParallel1 -->
+    </test> <!-- Test2 -->
+    <test name="Test1" duration-ms="34572" started-at="2019-08-06T07:13:41Z" finished-at="2019-08-06T07:14:16Z">
+      <class name="com.example.appium.TestNGParallel">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.example.appium.TestNGParallel@4667ae56]" name="beforeMethod" is-config="true" duration-ms="19051" started-at="2019-08-06T07:13:41Z" finished-at="2019-08-06T07:14:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[G5 SE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LGH8451bb031b0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6.0.1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[127.0.0.2:4723/wd/hub]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testAddition()[pri:0, instance:com.example.appium.TestNGParallel@4667ae56]" name="testAddition" duration-ms="12445" started-at="2019-08-06T07:14:00Z" finished-at="2019-08-06T07:14:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddition -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.example.appium.TestNGParallel@4667ae56]" name="afterMethod" is-config="true" duration-ms="3038" started-at="2019-08-06T07:14:13Z" finished-at="2019-08-06T07:14:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.example.appium.TestNGParallel -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
